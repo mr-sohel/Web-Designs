@@ -1,0 +1,25 @@
+* {margin: 0; padding:0}
+body{font-family:consolas; font-size:14px; line-height:20px;COLOR:#000;background:#EDEDED}
+.fix{overflow:hidden}
+.main{width:960px;margin:20px auto;padding:0}
+.header .slider{overflow:hidden;width:960px}
+.header img{width:960px;height:270px}
+.slider img {width:900px}
+.mainmenu {background:#96C277;overflow:hidden} 
+.mainmenu ul{margin:0;padding:0;list-style:none}
+.mainmenu ul li{float:left;border-right:1px solid #ddd}
+.mainmenu ul li a{padding:10px 20px;display:block;color:#000;text-decoration:none}
+.mainmenu ul li a:hover{background:olive}
+.maincontent{margin-bottom:20px;overflow:hidden}
+.maincontent h2{margin-bottom:10px}
+.content{float:left;width:600px}
+.slider {padding:20px}
+.sidebar{float:right;padding-right:20px}
+.sidebar ul{margin:0;padding:0;list-style:none}
+.sidebar ul li{border-bottom:1px solid #ddd}
+.sidebar ul li a{padding:7px 10px;display:block;text-decoration:none;color:#000}
+.sidebar ul li a:hover{background:olive}
+.footer{background:#666;margin-top:20px;padding:8px;color:#fff}
+.footer p a{margin-left:200px;color:#fff;text-decoration:none}
+
+3
