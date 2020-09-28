@@ -1,0 +1,58 @@
+html { height: 100%;}
+*{ margin: 0; padding: 0;}
+body{ font: normal 14px arial;background: #1D1D1D;color: #5D5D5D;margin-top: 30px;}
+p{ padding: 0 0 20px 0;ine-height: 1.7em;} 
+img {border: 0;}
+h1, h2, h3, h4, h5, h6 
+{font: bold 175% 'liberation sans', arial, sans-serif;color: #1D1D1D;margin: 0 0 15px 0;  padding: 15px 0 5px 0;}
+h2{ font: bold 165% 'liberation sans', arial, sans-serif;}
+h3{ font: bold 125% 'liberation sans', arial, sans-serif;padding: 0 0 5px 0;color: #1D1D1D;}
+h4, h5, h6{ margin: 0;padding: 0 0 5px 0;font: bold 110% 'liberation sans', arial, sans-serif;color: #1D1D1D;line-height: 1.5em;}
+h5, h6{ font: italic 95% arial, sans-serif;color: #1D1D1D;padding-bottom: 15px;}
+h6{ color: #362C20;}
+a, a:hover{ background: transparent;outline: none;text-decoration: underline;color: #5D5D5D;}
+a:hover{ text-decoration: underline;color: #1D1D1D;}
+ul{ margin: 2px 0 22px 17px;}
+ul li{ margin: 2px 0 15px 17px;}
+ol{ margin: 8px 0 22px 20px;}
+ol li{ margin: 0 0 11px 0;}
+#main, #header, #banner, #menubar, #site_content, #footer, .container_footer, .container_header, #contact
+{ margin-left: auto; margin-right: auto;}
+#main{ width: 920px; background: transparent;}
+#header{ background: transparent;width: 960px;}
+#banner{ background: #FFF;width: 900px;padding: 5PX 0 0 20px;}
+#banner_content{ width: 880px;position: relative;height: 350px;background: #FFF url(../images/banner.jpg) no-repeat;}
+#banner H1 { float: right;font: bold 300% 'liberation sans', arial, sans-serif;color: #FFF;padding: 0px 20px 0px 0px;}
+#menubar{ width: 920px;height: 50px;text-align: center; margin: 0 auto;background: transparent;color: #000;} 
+#contact{width: 160px;float: left;height: 50px;background: transparent;padding: 0 0 0 10px;}
+#site_content{ width: 920px;overflow: hidden;margin: 0 auto;padding: 0;background: #FFF;} 
+.sidebar_container{ float: left;width: 230px;margin: 20px 0 20px 20px;}
+.sidebar{float: left;width: 200px;padding-left: 10px;margin-bottom: 10px;}
+.sidebar_item{ font: normal 100% Arial;padding: 0 15px 0 0;width: 201px;}
+.sidebar h2{ color: #000;}  
+.sidebar h4{ font-size: 125%;color: #000;}
+.sidebar p{ color: #000;}
+.sidebar a{ color: red;text-decoration:none}
+.sidebar a:hover{ text-decoration: underline;background:transparent}
+.sidebar ul li, .sidebar ul li.selected{ list-style: none; margin: 15px 0;padding: 0;}
+.sidebar li.selected, .sidebar li:hover{ color: #5D5D5D;text-decoration: none;} 
+#content{ text-align: left;width: 900px;padding: 0;margin: 0 15px 0 0;float: right;}
+.content_item{ width: 620px;margin: 0 0 20px 20px;float: left;}
+.content_image{ width: 250px;padding: 0px 20px 20px 0px;float: left;}
+.container_header{ margin-top: 20px;height: 15px;width: 920px;background: transparent url(../images/container_header.png) repeat-x top;}  
+ul.links{ margin: 0;}
+ul.links li{ list-style: none;padding: 8px 0;}
+ul.links li a, ul.links li a:hover{ padding: 0 0 0 28px;background: transparent url(../images/page.png) no-repeat left center;color: #06C4E6;text-decoration: underline;} 
+ul.links li a:hover{ color: #5D5D5D;text-decoration: none;} 
+.lavaLampWithImage {position: relative;height: 30px;padding: 5px 35px 5px 0px;overflow: hidden;float: left;margin: 0 40px 0 0px;width: 650px;}
+.lavaLampWithImage li {float: left;list-style: none;}
+.lavaLampWithImage li.back {background: #444;height: 28px;z-index: 8;position: absolute;}
+.lavaLampWithImage li a {font: normal 120% arial, sans-serif;text-decoration: none;color: #FFF;text-align: center;letter-spacing: 0;z-index: 10;display: block;float: left;height: 60px;padding: 5px 0px 0px 35px;position: relative;overflow: hidden;}
+.lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {border: none;}
+.lavaLampWithImage li a:hover {color: olive}
+
+.footer {padding:20px;border: 1px solid #333}
+.footer p{color:white; float: left;padding-bottom:20px}
+.para {float:left; margin-left: 256px;}
+.para p a{text-decoration:none; color:#fff;}
+.para p {color:#fff;paddings-bottom:25px}
